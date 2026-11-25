@@ -25,7 +25,7 @@
 
 `default_nettype none
 
-module tt_um_utcj_centinela_co (
+module tt_um_contritefob-create_centinela_co (
     input  wire [7:0] ui_in,    // CO reading, 2 ppm per LSB (0..510 ppm)
     output wire [7:0] uo_out,   // [6:0] 7-segment a..g, [7] dp = valve permitted
     input  wire [7:0] uio_in,   // [0] strobe  [1] rearm  [2] demo  [3] chain_ok
