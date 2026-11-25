@@ -82,7 +82,7 @@ samples `ui_in` 64 times per second, so time runs 64 times faster and the strobe
 import time
 from ttboard.demoboard import DemoBoard
 tt = DemoBoard.get()
-tt.shuttle.tt_um_utcj_centinela_co.enable()
+tt.shuttle.tt_um_contritefob-create_centinela_co.enable()
 tt.clock_project_PWM(32768)
 tt.uio_oe_pico.value = 0b00001111      # the board drives uio[3:0]
 tt.ui_in.value = 0                     # clean air
