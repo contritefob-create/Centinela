@@ -27,7 +27,7 @@ Bootcamp 2026. **No es un componente de seguridad certificado.**
    archivos: `src/project.v`, `test/tb.v`, `info.yaml` y `docs/info.md`. En Linux o macOS:
 
    ```
-   grep -rl tt_um_utcj_centinela_co . | xargs sed -i 's/tt_um_utcj_centinela_co/tt_um_TUUSUARIO_centinela_co/g'
+   grep -rl tt_um_contritefob-create_centinela_co . | xargs sed -i 's/tt_um_utcj_centinela_co/tt_um_TUUSUARIO_centinela_co/g'
    ```
 
 5. Pon el nombre de tu equipo en `author` (info.yaml) y en la cabecera de `project.v`.
